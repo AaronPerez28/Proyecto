@@ -4,50 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Celula</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/estilo_login.css">
+    <title>Login</title>
 </head>
 <body>
-    <i><h1 style="text-align: center;">La celula</h1></i>
-    <img src="img/img1.jpg" width="400" height="500" >
-    <marquee><h2>Concepto</h2></marquee>
-    <p>
-        En el ámbito de la biología, es la unidad más pequeña que puede vivir por sí sola. Forma todos los organismos vivos y los tejidos del cuerpo. Las tres partes principales de la célula son la membrana celular, el núcleo y el citoplasma. La membrana celular rodea la célula y controla las sustancias que entran y salen. Dentro de la célula está el núcleo que contiene el nucléolo y la mayor parte del ADN celular, además es donde se produce casi todo el ARN. El citoplasma es el líquido del interior de la célula que contiene otros elementos diminutos con funciones específicas, como el aparato de Golgi, las mitocondrias y el retículo endoplasmático. En el citoplasma ocurren la mayoría de las reacciones químicas, y también es donde se elaboran la mayoría de las proteínas. El cuerpo humano tiene más de 30 billones de células.
-    </p>
-    <h3>Partes de la celula</h3>
-    <p>
-
-        Partes de una célula. La célula está rodeada por una membrana, con receptores en la superficie; además, tiene varias estructuras pequeñas en su interior, como el núcleo, las mitocondrias, el retículo endoplasmático y el aparato de Golgi. Estas desempeñan funciones específicas en la célula.
-    </p>
-    
-    <p>
-        En las células en general se pueden distinguir las siguientes estructuras:
-
-        La membrana plasmática: es una estructura flexible que encierra el contenido de la célula. Actúa como una barrera, que deja pasar nutrientes, agua y oxígeno, y deja salir dióxido de carbono y otras sustancias que la célula tiene que eliminar.
-        
-        <b>El núcleo celular:</b> es una estructura dentro de la célula, formado por una membrana o envoltura nuclear, que contiene el material genético de las células eucariotas. Es el centro que controla las actividades de las células eucarióticas. En las células procariotas no existe núcleo, por lo que el material genético está disperso.
-        
-        <b>El citoplasma:</b> es el interior de la célula entre el núcleo y la membrana plasmática. Aquí se encuentra la maquinaria de producción y mantenimiento de la célula. Está constituido por un material gelatinoso llamado hialoplasma.
-        
-       <b>Los organelos:</b>  son los responsables por diversas actividades celulares, tales como almacenamiento, digestión, respiración celular, síntesis de material y excreción, es decir, son los responsables del mantenimiento de la vida celular. Entre los organelos podemos destacar: mitocondrias, ribosomas, retículo endoplasmático, aparato de Golgi, lisosomas y vesículas.
-
-    </p>
-    <h3>Tipos de celulas</h3>
-    <p>
-        <ul>
-            <li>Unicelulares</li>
-            <li>Pluricelulares</li>
-            <li>Eucariotas</li>
-            <li>Procariotas</li>
-        </ul>
-    </p>
-
-    <table border="1"  width="700">
-        <tr style="background-color: rgb(202, 255, 202);"><th>Caracteristica Comparativa</th><th>Procariota</th><th>Eucariota</th></tr>
-        <tr><td style="background-color: rgb(202, 255, 202);">Estrcutura</td><td>Simple, sin núcleo celular diferenciado,es decir su ADN está disperso en el cioplasma.</td><td>Más compleja, tienen su material hereditario fundamental encerrado en una envltura nuclear</td></tr>
-        <tr><td  style="background-color: rgb(202, 255, 202);">Número de celulas</td><td>Son Unicelulares, es decir poseen una sola célula.</td><td>Son en su mayoría pluricelulares, es decir possen más de una celula.</td></tr>
-        <tr><td  style="background-color: rgb(202, 255, 202);">Origen</td><td>Data de hace 3 500 millones de años. Creyéndose que fueron las primeras células vivas</td><td>Hace 1 500 millones de años. Se origino de los cambios que realizó la célula procariota</td></tr>
-        <tr><td  style="background-color: rgb(202, 255, 202);">Caracteristicas Secundarias</td><td><ul><li>Pueden sobrevivir a temperaturas extremas</li><li>Pueden ser autótrofos o heterótrofos</li></ul></td><td><ul><li>Poseen cito esqueleto muy estructurado</li><li>Pueden tener pared celular o recubrimiento externo de protoplasma</li></ul></td></tr>
-    </table>
+    <section>
+        <h1>¡Bienvenido a <span class="fs-0 text-primary fw-bold">WeeHome</span>¡</h1>
+        <h2>¿Como desea ingresar?</h2>
+        <form id="formulario">
+                <label><a href="./html/login.html"><input type="button" id="login" value="Usuario" class="btn btn-primary btn-lg"></a></label>
+                <label><a href="./html/inmobiliaria/login_inmb.html"><input type="button" id="login" value="Inmobiliaria" class="btn btn-primary btn-lg"></a></label>
+                
+        </form>
+    </section>
+    <script src="./js/login.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css">
+    <!--AXIOS -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudfare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
